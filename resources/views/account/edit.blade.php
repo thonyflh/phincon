@@ -24,17 +24,6 @@
                         </div>
                         <span class="text-danger" id="statusError"></span>
                     </div>
-                    <div class="row mb-3">
-                        <label for="password" class="col-sm-4 col-form-label">Password<sup class="text-danger">*</sup></label>
-                        <div class="col-sm-8">
-                            <input type="text" class="form-control" onKeyup="validatePassword()" name="password" id="password" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-                            <span class="text-secondary small error" id="accepted"></span><br>
-                            <span class="text-muted small">Minimum 8 characters</span><br>
-                            <span class="text-muted small">Upercase and Lowercase</span><br>
-                            <span class="text-muted small">Number</span><br>
-                            <span class="text-muted small">Symbol</span>
-                        </div>
-                    </div>
                     <div class="modal-footer" style="padding-bottom=10px">
                         <a href="/account" type="button" class="btn btn-danger" data-dismiss="modal" style="margin-right: 5px;margin-bottom: 5px;">Cancel</a>
                         <button type="submit" id="submit" class="btn btn-success submit" style="margin-left: 20px;margin-right: 20px;margin-bottom: 5px;">Update</button>
