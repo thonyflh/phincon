@@ -1,5 +1,7 @@
 project yang saya kerjakan ini adalah project management account yang dimana project ini berfungsi untuk CREATE, UPDATE, READ, DELETE account.
 
+untuk dapat menjalankan project ini harus di pastikan memiliki php 8, xampp atau laragon dan untuk database memiliki postgresql. lalu buka editor source code dan jalankan php artisan migrate dan php artisan db:seed pada teminal.
+
 ketika masuk kedalam website user perlu memasukan akun mereka. disini saya sudah membuat sebuah akun admin agar dapat bisa melakukan login
 
 email : admin@gmail.com
