@@ -49,7 +49,7 @@ class AccountController extends Controller
     public function updatelogic(Request $request, $id) {
         $request->validate([
             'name'=>'nullable',
-            'email'=>'nullable|email|unique:users,email',
+            'email'=>'nullable|email',
         ]);
 
         $account_data = User::find($id);

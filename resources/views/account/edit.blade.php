@@ -14,7 +14,7 @@
                     <div class="row mb-3">
                         <label for="name" class="col-sm-4 col-form-label">Name</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" name="name" value="{{$account_data->name}}">
+                            <input type="text" class="form-control" id="name" name="name" value="{{$account_data->name}}">
                         </div>
                     </div>
                     <div class="row mb-3">
