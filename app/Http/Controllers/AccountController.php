@@ -15,7 +15,7 @@ class AccountController extends Controller
         return view('account.account', compact('account'));
     }
 
-    public function addAgent(Request $request){
+    public function addAAccount(Request $request){
         $validation = $request->validate([
             'name'=>'required',
             'email'=>'required|email|unique:users,email',
